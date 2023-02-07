@@ -8,6 +8,6 @@
  - npm start
 
 ## back
- - cd front
+ - cd back
  - npm install
  - npm start
