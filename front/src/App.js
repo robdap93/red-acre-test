@@ -106,7 +106,7 @@ export default function App() {
             />
             <Form.Text id="amountFrom" />
           </Col>
-          <Col lg="1" style={{ marginTop: "37px", justifyContent: "center", display: "flex" }}>=</Col>
+          <Col lg="1" style={{ marginTop: "2.3%", justifyContent: "center", display: "flex" }}>=</Col>
           <Col lg="2">
             <FormLabel>Currency from</FormLabel>
             <Form.Select
@@ -130,12 +130,12 @@ export default function App() {
             />
             <Form.Text id="amountTo" />
           </Col>
-          <Col lg="1" style={{ marginTop: "32px" }}>
+          <Col lg="1" style={{ marginTop: "2.2%" }}>
             <Button variant="success" onClick={save}>Save</Button>
           </Col>
         </Row>
       </Row>
-      <Row style={{ border: "1px solid", padding: "30px", marginTop: "10%" }}>
+      <Row style={{ border: "1px solid", padding: "30px", marginTop: "10px" }}>
         <Row>
           <h1>History</h1>
         </Row>
